@@ -1,0 +1,31 @@
+.MuiButton-root.normal > svg {
+  font-size: 36px;
+  line-height: 1em;
+  color: #999999;
+}
+
+.MuiButton-root.normal {
+  min-height: 5.5vh;
+  border-radius: 0 !important;
+  margin-top: 3vh !important;
+}
+
+.MuiButton-root.selected {
+  min-height: 5.5vh;
+  border-radius: 0 !important;
+  margin-top: 3vh !important;
+  background-color: #fef2f3;
+  border-right: 4px solid !important;
+  border-color: #ad1f19 !important;
+}
+
+.MuiButton-root.selected > svg {
+  font-size: 36px;
+  line-height: 1em;
+  color: #ad1f19;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

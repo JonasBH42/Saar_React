@@ -1,0 +1,8 @@
+.general-input {
+  width: 12vw;
+  display: grid;
+}
+
+.MuiClockPicker-arrowSwitcher {
+  direction: ltr;
+}

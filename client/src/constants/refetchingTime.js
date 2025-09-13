@@ -1,0 +1,1 @@
+export const REFETCHING_INTERVAL = 60000;

@@ -1,0 +1,61 @@
+.leaflet-control-geocoder > .leaflet-control-geocoder-icon {
+  min-height: 45px;
+  min-width: 45px;
+}
+
+.leaflet-top > .leaflet-control-geocoder > .leaflet-control-geocoder-form {
+  transition: width 0.6s ease-in;
+  display: inline-block;
+  width: 0;
+}
+
+.leaflet-top
+  > .leaflet-control-geocoder
+  > .leaflet-control-geocoder-form
+  > input {
+  width: 0;
+  display: none;
+}
+
+.leaflet-top
+  > .leaflet-control-geocoder-expanded
+  > .leaflet-control-geocoder-form
+  > input {
+  display: inline-block;
+  outline: none;
+  animation: box 3.5s;
+  width: 200px;
+  transition-timing-function: ease-in;
+}
+
+/* important for changing the font in the search bar */
+#root > .leaflet-container {
+  font: inherit;
+}
+
+.leaflet-top
+  > .leaflet-control-geocoder-expanded
+  > .leaflet-control-geocoder-form {
+  display: inline-block;
+  width: 250px;
+}
+
+.leaflet-control-geocoder > .leaflet-control-geocoder-error,
+.leaflet-control-geocoder > .leaflet-control-geocoder-alternatives > li {
+  text-align: center;
+  color: grey;
+}
+
+.leaflet-control-geocoder-alternatives > li > a,
+.leaflet-control-geocoder-alternatives > li:hover > a {
+  text-align: center;
+}
+
+@keyframes box {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
+  }
+}

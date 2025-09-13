@@ -1,0 +1,16 @@
+.control-icon {
+  height: 38px;
+  margin-right: 10px !important;
+  border-radius: 20% !important;
+  width: 38px;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  padding: 0 !important;
+}
+
+.control-icon .MuiTouchRipple-child {
+  border-radius: 20% !important;
+}
+
+.css-1vooibu-MuiSvgIcon-root {
+  transform: rotate(180deg) !important;
+}

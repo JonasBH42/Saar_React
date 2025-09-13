@@ -1,0 +1,52 @@
+.svg-icon path {
+  fill: red;
+  stroke: #a30404;
+  stroke-width: 0.6;
+}
+
+.target-icon path {
+  fill: #60c7d6;
+  stroke: #074b5c;
+  stroke-width: 0.6;
+}
+
+.geocoder-icon path {
+  fill: #000000;
+}
+
+.geocoder-icon {
+  filter: drop-shadow(2px 2px 0px rgb(95, 95, 95));
+}
+
+.clusterDefault div {
+  background: grey;
+  border: 2px solid whitesmoke;
+}
+
+.clusterGreen div {
+  background: yellowgreen;
+  border: 2px solid green;
+}
+
+.clusterRed div {
+  background: red;
+  border: 2px solid #a30404;
+}
+
+.svg-icon-siren-default path {
+  fill: darkgrey;
+  stroke: grey;
+  stroke-width: 100;
+}
+
+.svg-icon-siren-red path {
+  fill: red;
+  stroke: #a30404;
+  stroke-width: 100;
+}
+
+.svg-icon-siren-green path {
+  fill: yellowgreen;
+  stroke: green;
+  stroke-width: 100;
+}

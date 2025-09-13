@@ -1,0 +1,29 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run dev", // <-- Bind this task to a key
+      "dependsOn": ["run server", "run client"]
+    },
+    {
+      "label": "run server",
+      "type": "shell",
+      "command": "npm run server",
+      "problemMatcher": [],
+      "presentation": {
+        "group": "groupA"
+      }
+    },
+    {
+      "label": "run client",
+      "type": "shell",
+      "command": "npm run client",
+      "problemMatcher": [],
+      "presentation": {
+        "group": "groupA"
+      }
+    }
+  ]
+}

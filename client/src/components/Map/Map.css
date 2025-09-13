@@ -1,0 +1,7 @@
+.leaflet-container {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  left: 0;
+  font-family: "Open Sans";
+}

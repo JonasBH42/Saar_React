@@ -1,0 +1,28 @@
+.dialog-data {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.dialog-data > div {
+  flex: 1 1 50%;
+}
+.dialog-data > div:first-child {
+  flex: 1 1 50%;
+}
+.label-dialog {
+  color: #808080;
+}
+
+.info-dialog {
+  color: black;
+}
+.close-dialog {
+  height: 38px;
+  background-color: #fef2f3;
+  top: 10px;
+  border-radius: 20% !important;
+  width: 38px;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  padding: 0 !important;
+}

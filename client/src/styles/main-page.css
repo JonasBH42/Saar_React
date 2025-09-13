@@ -1,0 +1,25 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 1vw;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.headline {
+  font-size: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.buttonsBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

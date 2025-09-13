@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 20vmin;
+  font-weight: bolder;
+  text-shadow: 6px 6px #858080;
+}
+
+.subtitle {
+  font-size: 7vmin;
+  font-weight: bolder;
+  text-shadow: 4px 2px #858080;
+}

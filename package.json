@@ -1,0 +1,20 @@
+{
+  "name": "saar",
+  "version": "1.0.0",
+  "description": "Simulator for emergency events",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run local --prefix client",
+    "server": "npm start --prefix server",
+    "build:client": "cd client && npm i && npm run build:local",
+    "build:server": "cd server && npm i && npm run build",
+    "build:copy": "cd server && Xcopy /E /I /Y \"../client/build\" \"public\"",
+    "build": "npm run build:client && npm run build:server && npm run build:copy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://Shaldag@dev.azure.com/Shaldag/Saar/_git/Saar"
+  },
+  "author": "Saar Team",
+  "license": "UNLICENSED"
+}

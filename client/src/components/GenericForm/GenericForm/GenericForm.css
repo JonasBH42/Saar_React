@@ -1,0 +1,59 @@
+.MuiInputLabel-root {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: medium !important;
+}
+
+.MuiTypography-root {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.Mui-checked {
+  color: #60c7d6 !important;
+}
+
+.MuiFormControlLabel-label {
+  color: #6c6c6c !important;
+}
+
+.css-9npbnl-MuiFormLabel-root-MuiInputLabel-root {
+  overflow: unset !important;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  margin-block-start: 1vw;
+  margin-right: 1vw;
+  padding-left: 30px;
+}
+
+.form-first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.form-row {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.validation-error-dialog {
+  position: absolute;
+  padding: 20px;
+  z-index: 100;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  cursor: grab;
+  background-color: #fef2f3 !important;
+  overflow: hidden;
+}
